@@ -1,0 +1,202 @@
+<!doctype html>
+ <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Modus</title>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">    
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+   </head>
+
+      <body>
+       <nav class="navbar navbar-expand-lg navbar-dark">
+         <div class="container">
+           <div class="logo">
+               <a href="#"><img src="images/logo_03.png" alt="moduslogo"></a>
+            </div><!--logo-->
+
+             <button class="navbar-toggler" type="button" data-target="#mainnav" data-toggle="collapse"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+
+            <div class="navbar-collapse collapse" id="mainnav">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active">HOME</a></li>
+                <li class="nav-item"><a class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link">SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PORTFOLIO</a>
+                  <div class="dropdown-menu" aria-lebelledby="dropdownmenulink">
+                   <a class="dropdown-item" href="#">Portfolio 2 column page</a>
+                   <a class="dropdown-item" href="#">Portfolio 2 column page</a>
+                   <a class="dropdown-item" href="#">Portfolio 2 column page</a>
+                 </div>
+                </li>
+                <li class="nav-item"><a class="nav-link">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link">FEATURES</a></li>
+                <li class="nav-item"><a class="nav-link">CONTACTS</a></li>
+             </ul>
+            </div>
+         </div><!--continer-->
+       </nav>
+
+          <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0"  class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+             <div class="carousel-inner">
+              <div class="carousel-item active">
+               <img src="images/image-1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h2>VESTIBULUM</h2>
+                    <p>Maecenas tincidunt, augue et rutrum condimentum,<br> libero lectus mattis orci, ut commodo.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/image-2.png" class="d-block w-100" alt="...">
+                 <div class="carousel-caption d-md-block">
+                    <h2>VESTIBULUM</h2>
+                    <p>Maecenas tincidunt, augue et rutrum condimentum,<br> libero lectus mattis orci, ut commodo.</p>
+                 </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/image-3.png" class="d-block w-100" alt="...">
+                 <div class="carousel-caption d-md-block">
+                    <h2>VESTIBULUM</h2>
+                    <p>Maecenas tincidunt, augue et rutrum condimentum,<br> libero lectus mattis orci, ut commodo.</p>
+                 </div>
+              </div>
+             </div><!--carousel-inner-->
+
+                <div class="btns">
+                  <a href="#carouselExampleIndicators" data-slide="prev" class="prev"><span>
+                     <i class="fas fa-angle-double-left"></i></span>
+                  </a>
+                  <a href="#carouselExampleIndicators" data-slide="next" class="next"><span>
+                    <i class="fas fa-angle-double-right"></i></span>
+                  </a>
+               </div><!--btns-->
+          </div>
+
+             <div class="container">
+              <div class="services">
+                <div class="row">
+                  <div class="col-lg-10">
+                     <h2>Some of our top services</h2>
+                       <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                  </div>
+                  <div class="col-lg-2">
+                  <button type="button" class="btn">VIEW MORE</button>
+                 </div>
+              </div><!--row-->
+            </div><!--services-->
+          </div><!--continer-->
+
+            <div class="container cards">
+              <div class="row">
+               <div class="card">
+                 <i class="fa fa-thumbs-up icon-1"></i>
+                  <h3>SUSPENDISSE </h3>
+                   <p>Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula ut nunc.</p>
+                    <button type="button" class="btn readmore">read more</button>
+               </div>
+            
+                <div class="card">
+                 <i class="fa fa-key icon-1"></i>
+                  <h3>MAECENAS</h3>
+                   <p>Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero lectus mattis orci, ut commodo.</p>
+                    <button type="button" class="btn readmore">read more</button>
+                </div>
+
+                <div class="card">
+                 <i class="fa fa-flag icon-1"></i>
+                  <h3>ALIQUAM</h3>
+                   <p>Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non. </p>
+                    <button type="button" class="btn readmore">read more</button>
+                </div>
+
+                <div class="card">
+                 <i class="fa fa-flask icon-1"></i>
+                  <h3>HABITASSE</h3>
+                    <p>Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non.</p>
+                    <button type="button" class="btn readmore">read more</button>
+                </div>
+              </div><!--row-->
+            </div><!--continer-->
+
+               <div class="company-box">
+                 <div class="container">
+                  <div class="row footerrow">
+                   <div class="col-lg-4 ">
+                    <a href="#"><img src="images/logo_03.png" alt="moduslogo"></a>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec .</p>
+                    <p>Phone:<i> 182 2569 5896</i></p>
+                    <p>e-mail: <i>info@modu.versus</i></p>
+                   </div>
+
+                   <div class="col-lg-2">
+                    <ul class="footercolum">
+                     <h4>Company</h4>
+                       <li><i class="fas fa-chevron-right icon2"></i>About</li>
+                       <li><i class="fas fa-chevron-right icon2"></i>FAQ</li>
+                       <li><i class="fas fa-chevron-right icon2"></i>Contact</li>
+                       <li><i class="fas fa-chevron-right icon2"></i>Terms</li>
+                       <li><i class="fas fa-chevron-right icon2"></i>Privacy</li>
+                       <li><i class="fas fa-chevron-right icon2"></i>Testimonials</li>
+                    </ul>
+                   </div>
+
+                   <div class="col-lg-2">
+                    <ul class="footercolum">
+                     <h4>Community</h4>
+                      <li><i class="fas fa-chevron-right icon2"></i>Blog</li>
+                      <li><i class="fas fa-chevron-right icon2"></i>Forum</li>
+                      <li><i class="fas fa-chevron-right icon2"></i>Support</li>
+                      <li><i class="fas fa-chevron-right icon2"></i>Newsletter</li>
+                    </ul>
+                   </div>
+
+                  <div class="col-lg-4 last">
+                    <p class="strong"><i>from the</i><strong> BLOG</strong></p> 
+                     <span class="img1">
+                       <i class="fas fa-image"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                          <br><span class="highlight">
+                           26 May, 2013</span></p> 
+                           </span>
+                    
+                     <span class="img1">
+                        <i class="fas fa-image"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                           <br><span class="highlight">
+                            26 May, 2013</span></p> 
+                     </span>
+                  </div>
+
+                </div><!--row-->
+               </div><!--continer-->
+             </div><!--company-box-->
+
+
+                 <div class="footer-bottom py-4">
+                  <div class="container d-flex justify-content-between flex-wrap-reverse">
+                   <p class="mt-2 mb-sm-2 mb-0">2013  ModusVersus</p>
+                    <div class="nav d-inline-flex justify-content-center">
+                      <a href="#"><i class="fab fa-facebook-f icon3"></i></a>
+                      <a href="#"><i class="fab fa-google-plus-g icon3"></i></a>
+                      <a href="#"><i class="fab fa-twitter icon3"></i></a>
+                      <a href="#"><i class="fa fa-rss icon3"></i></a>
+                    </div>
+                  </div><!--continer-->
+                 </div><!--footer-bottom-->
+
+                   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+                   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+       </body>
+
+ </html>

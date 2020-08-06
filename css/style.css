@@ -1,0 +1,411 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px!important;
+    color: #777777;
+    background: #f3f3f3!important;
+}
+
+ul li{
+    list-style: none;
+}
+
+/*========= header =========*/
+
+.navbar-dark{
+    background: url(../images/headerBG.png) repeat-x left bottom #76c7c0!important;
+    padding:25px 0px!important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff!important;
+    padding:8px 15px;
+    margin-right:5px;
+}
+
+.navbar-dark .navbar-nav .active{
+    color: #fff;
+    background:#62a29e;
+    border-radius:5px;
+    box-shadow:0 3px 0 #528b86;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: rgba(255,255,255,1);
+    background: #e8645a;
+    border-radius:5px;
+    box-shadow: 0 3px 0 #e2534b;
+}
+
+.dropdown-menu{
+    background:#e2534b!important;
+    left:auto!important;
+    margin-top:-10px!important;
+    padding:5px!important;
+    /* position: relative!important; */
+    border: none!important;
+}
+
+.dropdown-menu .dropdown-item{
+    color: #fff;
+    background:#e5655d;
+    border-radius:5px;
+    margin:7px 0px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #76c7c0!important;
+}
+
+.dropdown-menu::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #e2534b;
+    z-index: 999;
+    margin-top: -12px;
+    margin-left: 12px;
+    transform: rotate(45deg);
+}
+
+/*========= header  close =========*/
+
+/*========= carousel =========*/
+
+.carousel-indicators .active{
+    background:#e2534b !important;
+}
+
+.carousel-indicators{
+   margin-bottom:-40px;
+}
+
+.carousel-indicators li{
+    width:60px!important;
+    height:5px!important;
+    background:#b0b8b9!important;
+    margin-right:10px;
+    margin: 0px;
+    border-bottom: none!important;
+    border-top: none!important;
+}
+
+.btns{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+}
+
+.prev{
+    float: left;
+}
+
+.next{
+    float: right;
+}
+
+.btns .fas{
+    font-size: 25px;
+    padding:10px;
+    background-color: #e8645a;
+    color:#ffff;
+}
+
+.carousel-caption{
+     bottom:200px!important;
+}
+
+.carousel-caption h2{
+     background:  #e8645a;
+     display: inline-block;
+     padding: 5px 20px;
+     border-radius: 5px;
+     font-weight: 800;
+     font-size:50px;
+}
+
+.carousel-caption p{
+     background:rgba(0,0,0,0.5);
+     padding: 10px 30px;
+     margin: auto;
+     width: 50%;
+     border-radius: 5px;
+}
+
+/*========= carousel close =========*/
+
+/*========= services =========*/
+
+.services{
+     margin-top: 100px;
+     background: #ececec;
+     padding:20px;
+     border-radius: 5px;
+}
+
+ .services h2{
+     color:#7f8c8c!important;
+}
+
+.services p{
+     color:#777777;
+     font-size: 13px;
+}
+
+.btn{
+    background-color:#76c7c0!important;
+    border-color: none!important;
+    color: #ffff!important;
+    box-shadow: 0 3px 0 #62a29e;
+}
+
+.btn:hover{
+    background:#e5655d!important;
+    box-shadow: 0 3px 0 #e2534b;
+}
+
+/*========= services close =========*/
+
+/*========= card =========*/
+
+.cards{
+    margin-top:50px;
+}
+
+.card{
+    width:260px;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+    border: none!important;
+    padding: 10px;
+    box-shadow: 0  3px 0 #e5e6e6!important;
+    position: relative;
+}
+
+.icon-1{
+    font-size:50px;
+    color: #76c7c0;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon-1:hover{
+   color: #e5655d;
+}
+
+.card h3{
+    color:#7f8c8c;
+    font-style: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card p{
+    color:#777777;
+    text-align: center;
+    font-size: 14px;
+     
+}
+
+.readmore{
+    width: 70%!important;
+    bottom:-15px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+/*========= card close =========*/
+
+/*========= company-box =========*/
+
+.company-box{
+    background: url(../images/lowerscale_11.png) repeat-x left top, #76c7c0 !important;
+    margin-top: 70px;
+    padding: 50px;
+    color: #fff;
+}
+
+.company-box p{
+    font-size:16px!important;
+}
+
+.company-box p{
+    padding-top: 10px;
+}
+
+.icon2 {
+    margin-right: 13px;
+}
+
+.footercolum h4{
+    color:#3b6360;
+    font-weight: bold;
+}
+
+.last{
+    padding-left:31px!important;
+}
+
+.img1 .fa-image{
+    background:#5e9f9a;
+    color:#afcfcd;
+    font-size:30px;
+    padding: 22px 18px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    /* margin: 0 20px 20px 0; */
+    text-align:center;
+}
+
+.img1{
+    display: flex;
+}
+
+.img1 p{
+   margin-top:-10px;
+}
+
+.highlight{
+    color:#3b6360;
+}
+
+.strong{
+    font-size:25px;
+}
+
+/*========= company-box close =========*/
+
+/*========= footer-bottom =========*/
+
+.footer-bottom{
+    background-color:#6ab3ac!important;
+    color:#ffff;
+    padding: 20px 18px;
+}
+
+.footer-bottom p{
+    font-size: 20px;
+}
+
+.icon3 {
+    display: inline-block;
+    color: #fff!important;
+    padding: 20px 15px 18px 0;
+    font-size:20px;
+}
+
+/*========= footer-bottom  close=========*/
+
+
+ @media(min-width: 320px) and (max-width: 767px) {
+
+    /*========= header =========*/
+
+    .navbar-dark{
+        padding: 10px 5px!important;
+    }
+
+    /*========= carousel =========*/
+
+    .btns .fas{
+        padding: 5px;
+        font-size:15px;
+    }
+
+   .carousel-caption{
+        top:30px;
+    }
+
+    .carousel .carousel-inner img {
+        height:200px;
+    }
+
+    .carousel-caption h2{
+        padding: 5px 10px;
+        font-size:15px;
+    }
+
+    .carousel-caption p{
+        padding: 5px;
+        margin: auto;
+        width: 100%;
+        border-radius: 5px;
+        font-size:10px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: -25px;
+    }
+
+    .carousel-indicators li{
+        width:40px!important;
+    }
+
+    /*========= services =========*/
+
+    .services h2{
+        font-size: 25px;
+    }
+
+    .services{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    /*========= card =========*/
+
+    .cards {
+        margin-top: 25px;
+    }
+
+    .card p{
+       font-size: 15px;
+    }
+
+    .card{
+        margin-bottom:40px;
+    }
+
+    .card h3{
+        font-size:20px;
+    }
+
+    /*========= company-box =========*/
+
+    .company-box{
+        margin-top: 20px;
+        padding:35px;
+    }
+
+    .img1 .fa-image{
+        margin-bottom: 40px;
+        margin-top:10px;
+    }
+
+    /*========= footer-bottom =========*/
+
+    .footer-bottom p{
+        font-size: 15px;
+    }
+    
+    .icon3 {
+        padding: 15px 15px 18px 0;
+        font-size:15px;
+    }
+
+    .last{
+       padding-left:0px!important;
+}
+
+}
